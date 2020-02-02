@@ -1,0 +1,16 @@
+[
+{
+  "modid": "gtc_advanced",
+  "name": "GregTech Classic Advanced",
+  "description": "Nothing to be seen here",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Globalista"],
+  "credits": "Globalista",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
