@@ -16,10 +16,13 @@ public class ModelRegistrationHandler {
     @SubscribeEvent
     public static void registerModels(ModelRegistryEvent event) {
         registerModel(ModItems.TEST_ITEM, 0);
+        registerModel(ModItems.TEST_ITEM_2, 0);
     }
 
     private static void registerModel(Item item, int meta) {
         ModelLoader.setCustomModelResourceLocation(item, meta,
-                new ModelResourceLocation(item.getRegistryName(), "inventory"));
+                new ModelResourceLocation(item.getRegistryName(),
+                        "inventory"));
     }
+
 }

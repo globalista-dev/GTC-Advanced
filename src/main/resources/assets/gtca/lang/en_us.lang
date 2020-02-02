@@ -1,0 +1,68 @@
+# Items
+item.gtca.test_item.name=Test Item
+item.gtca.test_item_2.name=Test Item II
+item.gtclassic.dustsmallYttrium.name=Small Yttrium Dust
+item.gtclassic.dustsmallMolybdenum.name=Small Molybdenum Dust
+item.gtclassic.dustsmallLanthanum.name=Small Lanthanum Dust
+item.gtclassic.dustsmallRhenium.name=Small Rhenium Dust
+item.gtclassic.dustsmallCerium.name=Small Cerium Dust
+item.gtclassic.nuggetYttrium.name=Yttrium Nugget
+item.gtclassic.nuggetMolybdenum.name=Molybdenum Nugget
+item.gtclassic.nuggetLanthanum.name=Lanthanum Nugget
+item.gtclassic.nuggetRhenium.name=Rhenium Nugget
+item.gtclassic.nuggetCerium.name=Cerium Nugget
+item.gtclassic.nuggetNeodymium.name=Neodymium Nugget
+item.gtclassic.plateYttrium.name=Yttrium Plate
+item.gtclassic.plateMolybdenum.name=Molybdenum Plate
+item.gtclassic.plateLanthanum.name=Lanthanum Plate
+item.gtclassic.plateRhenium.name=Rhenium Plate
+item.gtclassic.plateCerium.name=Cerium Plate
+item.gtclassic.plateNeodymium.name=Neodymium Plate
+item.gtclassic.gearYttrium.name=Yttrium Gear
+item.gtclassic.gearMolybdenum.name=Molybdenum Gear
+item.gtclassic.gearLanthanum.name=Lanthanum Gear
+item.gtclassic.gearRhenium.name=Rhenium Gear
+item.gtclassic.gearCerium.name=Cerium Gear
+item.gtclassic.gearNeodymium.name=Neodymium Gear
+item.gtclassic.stickYttrium.name=Yttrium Rod
+item.gtclassic.stickMolybdenum.name=Molybdenum Rod
+item.gtclassic.stickLanthanum.name=Lanthanum Rod
+item.gtclassic.stickRhenium.name=Rhenium Rod
+item.gtclassic.stickCerium.name=Cerium Rod
+item.gtclassic.hullRhenium.name=Rhenium Hull
+item.gtclassic.dustYttrium.name=Yttrium Dust
+item.gtclassic.dustMolybdenum.name=Molybdenum Dust
+item.gtclassic.dustLanthanum.name=Lanthanum Dust
+item.gtclassic.dustRhenium.name=Rhenium Dust
+item.gtclassic.dustCerium.name=Cerium Dust
+item.gtclassic.dustNeodymium.name=Neodymium Dust
+item.gtclassic.ingotYttrium.name=Yttrium Ingot
+item.gtclassic.ingotMolybdenum.name=Molybdenum Ingot
+item.gtclassic.ingotLanthanum.name=Lanthanum Ingot
+item.gtclassic.ingotRhenium.name=Rhenium Ingot
+item.gtclassic.ingotCerium.name=Cerium Ingot
+item.gtclassic.ingotNeodymium.name=Neodymium Ingot
+item.gtclassic.dusttinyYttrium.name=Tiny Yttrium Dust
+item.gtclassic.dusttinyMolybdenum.name=Tiny Molybdenum Dust
+item.gtclassic.dusttinyLanthanum.name=Tiny Lanthanum Dust
+item.gtclassic.dusttinyRhenium.name=Tiny Rhenium Dust
+item.gtclassic.dusttinyCerium.name=Tiny Cerium Dust
+item.gtclassic.dusttinyNeodymium.name=Tiny Neodymium Dust
+
+# Blocks
+tile.gtclassic.blockYttrium.name=Block of Yttrium
+tile.gtclassic.blockMolybdenum.name=Block of Molybdenum
+tile.gtclassic.blockLanthanum.name=Block of Lanthanum
+tile.gtclassic.blockConstantan.name=Block of Constantan
+tile.gtclassic.blockNeodymium.name=Block of Neodymium
+tile.gtclassic.blockRhenium.name=Block of Rhenium
+tile.gtclassic.blockCerium.name=Block of Cerium
+
+# Fluids
+fluid.yttrium=Molten Yttrium
+fluid.molybdenum=Molten Molybdenum
+fluid.lanthanum=Molten Lanthanum
+fluid.neodymium=Molten Neodymium
+fluid.rhenium=Molten Rhenium
+fluid.cerium=Molten Cerium
+

@@ -13,6 +13,7 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 public class ModItems {
 
     public static final Item TEST_ITEM = null;
+    public static final Item TEST_ITEM_2 = null;
 
     @EventBusSubscriber(modid = GTCA.MODID)
     public static class RegistrationHandler {
@@ -20,10 +21,12 @@ public class ModItems {
         @SubscribeEvent
         public static void registerItems(Register<Item> event) {
             final Item[] items = {
-                new Item().setRegistryName(GTCA.MODID, "test_item").setTranslationKey(GTCA.MODID + "." + "test_item").setCreativeTab(GTMod.creativeTabGT)
-            };
+                new Item().setRegistryName(GTCA.MODID, "test_item").setTranslationKey(GTCA.MODID + "." + "test_item").setCreativeTab(GTMod.creativeTabGT),
+                new Item().setRegistryName(GTCA.MODID, "test_item_2").setTranslationKey(GTCA.MODID + "." + "test_item_2").setCreativeTab(GTMod.creativeTabGT) };
 
             event.getRegistry().registerAll(items);
         }
+
     }
+
 }

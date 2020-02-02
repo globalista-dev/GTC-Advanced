@@ -19,7 +19,7 @@ import static gtclassic.api.material.GTMaterialFlag.*;
 @Mod(modid = GTCA.MODID, name = GTCA.NAME, version = GTCA.VERSION, acceptedMinecraftVersions = GTCA.MC_VERSION, dependencies = GTCA.DEPENDENCIES)
 public class GTCA {
 
-    public static final String MODID = "gtc_advanced";
+    public static final String MODID = "gtca";
     public static final String NAME = "GregTech Classic Advanced";
     public static final String VERSION = "0.0.1";
     public static final String MC_VERSION = "[1.12.2]";
@@ -32,8 +32,8 @@ public class GTCA {
     static GTMaterialFlag[] gemAll1 = { smalldust, DUST, RUBY, blockGem };
     static GTMaterialFlag[] gemAll2 = { smalldust, DUST, SAPPHIRE, blockGem };
     static GTMaterialFlag[] gemAll3 = { smalldust, DUST, gemGarnetShape, blockGem };
-    static GTMaterialFlag[] metalFull = { molten, smalldust, DUST, nugget, INGOT, plate, stick, gear, BLOCKMETAL };
-    static GTMaterialFlag[] metalFullWHull = { molten, smalldust, DUST, nugget, INGOT, plate, stick, gear, BLOCKMETAL, hull };
+    static GTMaterialFlag[] metalFull = { molten, smalldust, tinydust, DUST, nugget, INGOT, plate, stick, gear, BLOCKMETAL };
+    static GTMaterialFlag[] metalFullWHull = { molten, smalldust, tinydust, DUST, nugget, INGOT, plate, stick, gear, BLOCKMETAL, hull };
     static GTMaterialFlag[] metalFullHot = { molten, smalldust, DUST, nugget, INGOT, hotIngot, plate, stick, gear, BLOCKMETAL };
     static GTMaterialFlag[] metalFullHotWHull = { molten, smalldust, DUST, nugget, INGOT, hotIngot, plate, stick, gear, BLOCKMETAL, hull };
     static GTMaterialFlag[] metalBase = { molten, smalldust, DUST, nugget, INGOT, plate, stick };
