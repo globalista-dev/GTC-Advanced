@@ -29,7 +29,7 @@ item.gtclassic.stickMolybdenum.name=Molybdenum Rod
 item.gtclassic.stickLanthanum.name=Lanthanum Rod
 item.gtclassic.stickRhenium.name=Rhenium Rod
 item.gtclassic.stickCerium.name=Cerium Rod
-item.gtclassic.hullRhenium.name=Rhenium Hull
+item.gtclassic.hullRhenium.name=Rhenium Machine Hull
 item.gtclassic.dustYttrium.name=Yttrium Dust
 item.gtclassic.dustMolybdenum.name=Molybdenum Dust
 item.gtclassic.dustLanthanum.name=Lanthanum Dust
@@ -48,6 +48,8 @@ item.gtclassic.dusttinyLanthanum.name=Tiny Lanthanum Dust
 item.gtclassic.dusttinyRhenium.name=Tiny Rhenium Dust
 item.gtclassic.dusttinyCerium.name=Tiny Cerium Dust
 item.gtclassic.dusttinyNeodymium.name=Tiny Neodymium Dust
+item.gtclassic.crushedoreMolybdenum.name=Crushed Molybdenum Ore
+item.gtclassic.crushedorePurifiedMolybdenum.name=Purified Crushed Molybdenum Ore
 
 # Blocks
 tile.gtclassic.blockYttrium.name=Block of Yttrium

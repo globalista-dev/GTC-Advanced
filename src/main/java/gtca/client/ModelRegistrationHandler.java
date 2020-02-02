@@ -1,7 +1,8 @@
 package gtca.client;
 
 import gtca.GTCA;
-import gtca.init.ModItems;
+import gtca.init.GTCABlocks;
+import gtca.init.GTCAItems;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
@@ -15,8 +16,11 @@ public class ModelRegistrationHandler {
 
     @SubscribeEvent
     public static void registerModels(ModelRegistryEvent event) {
-        registerModel(ModItems.TEST_ITEM, 0);
-        registerModel(ModItems.TEST_ITEM_2, 0);
+        registerModel(GTCAItems.TEST_ITEM, 0);
+        registerModel(GTCAItems.TEST_ITEM_2, 0);
+        registerModel(Item.getItemFromBlock(GTCABlocks.GADOLINITE_ORE), 0);
+        registerModel(Item.getItemFromBlock(GTCABlocks.MOLYBDENUM_ORE), 0);
+
     }
 
     private static void registerModel(Item item, int meta) {

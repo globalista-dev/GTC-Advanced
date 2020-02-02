@@ -33,12 +33,13 @@ public class GTCA {
     static GTMaterialFlag[] gemAll2 = { smalldust, DUST, SAPPHIRE, blockGem };
     static GTMaterialFlag[] gemAll3 = { smalldust, DUST, gemGarnetShape, blockGem };
     static GTMaterialFlag[] metalFull = { molten, smalldust, tinydust, DUST, nugget, INGOT, plate, stick, gear, BLOCKMETAL };
+    static GTMaterialFlag[] metalFullCrushed = { molten, smalldust, tinydust, DUST, nugget, INGOT, plate, stick, gear, BLOCKMETAL, crushedore, crushedorePurified };
     static GTMaterialFlag[] metalFullWHull = { molten, smalldust, tinydust, DUST, nugget, INGOT, plate, stick, gear, BLOCKMETAL, hull };
     static GTMaterialFlag[] metalFullHot = { molten, smalldust, DUST, nugget, INGOT, hotIngot, plate, stick, gear, BLOCKMETAL };
     static GTMaterialFlag[] metalFullHotWHull = { molten, smalldust, DUST, nugget, INGOT, hotIngot, plate, stick, gear, BLOCKMETAL, hull };
     static GTMaterialFlag[] metalBase = { molten, smalldust, DUST, nugget, INGOT, plate, stick };
 
-    public static final GTMaterial Molybdenum = new GTMaterial(42, "Molybdenum", 180, 180, 220, metalFull);
+    public static final GTMaterial Molybdenum = new GTMaterial(42, "Molybdenum", 180, 180, 220, metalFullCrushed);
         // Molybdenum is here because its ore can be used to obtain Rhenium.
     public static final GTMaterial Rhenium = new GTMaterial(75, "Rhenium", 255, 255, 200, metalFullWHull);
         // Rhenium can be obtained through the processing of both molybdenum and copper ores.

@@ -1,0 +1,10 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "gtca:gadolinite_ore"
+    },
+    "variants": {
+        "normal": [{}],
+        "inventory": [{}]
+    }
+} 

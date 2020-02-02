@@ -1,0 +1,11 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "gtca:molybdenum_ore"
+    },
+    "variants": {
+        "normal": [{}],
+        "inventory": [{}]
+    }
+} 
+ 
