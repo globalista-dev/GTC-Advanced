@@ -1,6 +1,4 @@
 # Items
-item.gtca.crushed_nether_gold.name=Crushed Nether Gold Ore
-item.gtca.rare_earth_dust.name=Rare Earth Dust
 item.gtclassic.dustsmallYttrium.name=Small Yttrium Dust
 item.gtclassic.dustsmallMolybdenum.name=Small Molybdenum Dust
 item.gtclassic.dustsmallLanthanum.name=Small Lanthanum Dust
@@ -100,9 +98,6 @@ tile.gtclassic.blockBeryllium.name=Block of Beryllium
 tile.gtclassic.blockZircon.name=Block of Zircon
 tile.gtclassic.blockZirconium.name=Block of Zirconium
 tile.gtclassic.blockBismuth.name=Block of Bismuth
-tile.gtca.molybdenite_ore.name=Molybdenite Ore
-tile.gtca.gadolinite_ore.name=Gadolinite Ore
-tile.gtca.nether_gold_ore.name=Nether Gold Ore
 
 # Fluids
 fluid.yttrium=Molten Yttrium

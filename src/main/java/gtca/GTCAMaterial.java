@@ -11,7 +11,7 @@ public class GTCAMaterial {
     // These materials are automatically added by GTC, as this code runs. Nothing else is needed.
 
     // Note that some of the static flag groups below use GTCX flags, such as gear.
-    static GTMaterialFlag[] dustAll = {smalldust, DUST};
+    static GTMaterialFlag[] dustAll = {smalldust, DUST, tinydust};
     static GTMaterialFlag[] crushedAll = {DUST, smalldust, tinydust, crushedore, crushedorePurified};
     static GTMaterialFlag[] gemAll1 = {smalldust, tinydust, DUST, RUBY, blockGem};
     static GTMaterialFlag[] gemAll2 = {smalldust, tinydust, DUST, SAPPHIRE, blockGem};
@@ -38,6 +38,8 @@ public class GTCAMaterial {
     public static final GTMaterial Molybdenite = new GTMaterial("Molybdenite", 102, 102, 153, crushedAll);
     public static final GTMaterial Zircon = new GTMaterial("Zircon", 127, 146, 255, gemAll3);
     public static final GTMaterial Bismuthinite = new GTMaterial("Bismuthinite", 255, 251, 229, crushedAll);
+    public static final GTMaterial Mixed_Metal = new GTMaterial("Mixed_Metal", 204, 153, 255, dustAll);
+    public static final GTMaterial Impurities = new GTMaterial("Impurities", 61, 41, 41, dustAll);
 
     public static void init() {
 

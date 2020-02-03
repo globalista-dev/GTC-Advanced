@@ -1,40 +1,34 @@
 package gtca.init;
 
 import gtca.GTCA;
+import gtca.blocks.GTCABlockOre;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
+import net.minecraft.block.Block;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
-import static gtclassic.GTMod.creativeTabGT;
-
 @Mod.EventBusSubscriber(modid = GTCA.MODID)
 public final class GTCAEventSubscriber {
 
-    //Subscribe all ItemBlocks and Items here
+    public static final GTCABlockOre oreSample = new GTCABlockOre("Sample", 0, 3.0F, 1);
+    public static final GTCABlockOre oreMolybdenite = new GTCABlockOre("Molybdenite", 16, 3.0F, 1);
+
+    @SubscribeEvent
+    public static void registerBlocks(RegistryEvent.Register<Block> event) {
+        event.getRegistry().register(oreSample);
+        event.getRegistry().register(oreMolybdenite);
+    }
+
     @SubscribeEvent
     public static void registerItems(RegistryEvent.Register<Item> event) {
-
-        //ItemBlocks
-        final Item[] itemBlocks = {
-                new ItemBlock(Old_GTCABlocks.MOLYBDENITE_ORE).setRegistryName(Old_GTCABlocks.MOLYBDENITE_ORE.getRegistryName()),
-                new ItemBlock(Old_GTCABlocks.GADOLINITE_ORE).setRegistryName(Old_GTCABlocks.GADOLINITE_ORE.getRegistryName()),
-                new ItemBlock(Old_GTCABlocks.NETHER_GOLD_ORE).setRegistryName(Old_GTCABlocks.NETHER_GOLD_ORE.getRegistryName()),
-                new ItemBlock(Old_GTCABlocks.ZIRCON_ORE).setRegistryName(Old_GTCABlocks.ZIRCON_ORE.getRegistryName()),
-                new ItemBlock(Old_GTCABlocks.BISMUTHINITE_ORE).setRegistryName(Old_GTCABlocks.BISMUTHINITE_ORE.getRegistryName()),
-
-        };
-
-        //Items
-        final Item[] items = {
-                //new Item().setRegistryName(GTCA.MODID, "crushed_nether_gold").setTranslationKey(GTCA.MODID + "." + "crushed_nether_gold").setCreativeTab(creativeTabGT),
-                new Item().setRegistryName(GTCA.MODID, "mixed_metal_dust").setTranslationKey(GTCA.MODID + "." + "mixed_metal_dust").setCreativeTab(creativeTabGT),
+        event.getRegistry().register(new ItemBlock(oreSample).setRegistryName(oreSample.getRegistryName()));
+        event.getRegistry().register(new ItemBlock(oreMolybdenite.setRegistryName(oreMolybdenite.getRegistryName())));
 
 
-        };
-
-        event.getRegistry().registerAll(items);
-        event.getRegistry().registerAll(itemBlocks);
     }
+
+
 }
+

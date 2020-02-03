@@ -13,19 +13,10 @@ import java.util.Iterator;
 import static gtca.GTCAMaterial.*;
 
 public class GTCAOreDict {
-    public GTCAOreDict() {
-    }
+
+    public GTCAOreDict() {}
 
     public static void init() {
-
-        OreDictionary.registerOre("oreMolybdenite", Old_GTCABlocks.MOLYBDENITE_ORE);
-        OreDictionary.registerOre("oreGadolinite", Old_GTCABlocks.GADOLINITE_ORE);
-        OreDictionary.registerOre("oreNetherGold", Old_GTCABlocks.NETHER_GOLD_ORE);
-        OreDictionary.registerOre("oreZircon", Old_GTCABlocks.ZIRCON_ORE);
-        OreDictionary.registerOre("dustRareEarth", Ic2Items.rareEarthDust);
-        OreDictionary.registerOre("dustMixedMetal", GTCAItems.MIXED_METAL_DUST);
-        OreDictionary.registerOre("dustGadolinite", GTMaterialGen.getDust(Gadolinite, 1));
-        OreDictionary.registerOre("dustMolybdenite", GTMaterialGen.getDust(Molybdenite, 1));
 
         Iterator var0 = GTMaterial.values().iterator();
 

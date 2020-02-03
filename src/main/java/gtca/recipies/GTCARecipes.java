@@ -3,15 +3,11 @@ package gtca.recipies;
 import gtc_expansion.material.GTCXMaterial;
 import gtc_expansion.material.GTCXMaterialGen;
 import gtca.GTCAMaterial;
-import gtca.init.Old_GTCABlocks;
-import gtca.init.GTCAItems;
 import gtclassic.api.material.GTMaterial;
 import gtclassic.api.material.GTMaterialGen;
 import gtclassic.common.tile.GTTileCentrifuge;
 import ic2.core.block.machine.low.TileEntityMacerator;
 import ic2.core.platform.registry.Ic2Items;
-import net.minecraft.init.Items;
-import net.minecraft.item.crafting.FurnaceRecipes;
 
 public class GTCARecipes {
 
@@ -19,9 +15,9 @@ public class GTCARecipes {
     public static void addSmelting()
     {
 
-        FurnaceRecipes.instance().addSmeltingRecipeForBlock(Old_GTCABlocks.MOLYBDENITE_ORE, GTMaterialGen.getIngot(GTCAMaterial.Molybdenum, 1), 10);
-        FurnaceRecipes.instance().addSmeltingRecipeForBlock(Old_GTCABlocks.GADOLINITE_ORE, GTMaterialGen.getIngot(GTMaterial.Beryllium, 1), 10);
-        FurnaceRecipes.instance().addSmeltingRecipeForBlock(Old_GTCABlocks.NETHER_GOLD_ORE, GTMaterialGen.get(Items.GOLD_INGOT, 2), 10);
+        //FurnaceRecipes.instance().addSmeltingRecipeForBlock(Old_GTCABlocks.MOLYBDENITE_ORE, GTMaterialGen.getIngot(GTCAMaterial.Molybdenum, 1), 10);
+       // FurnaceRecipes.instance().addSmeltingRecipeForBlock(Old_GTCABlocks.GADOLINITE_ORE, GTMaterialGen.getIngot(GTMaterial.Beryllium, 1), 10);
+       // FurnaceRecipes.instance().addSmeltingRecipeForBlock(Old_GTCABlocks.NETHER_GOLD_ORE, GTMaterialGen.get(Items.GOLD_INGOT, 2), 10);
 
     }
 
@@ -55,7 +51,8 @@ public class GTCARecipes {
     public static void addCentrifuge()
     {
 
-        GTTileCentrifuge.addRecipe("dustGadolinite", 7, 0, GTTileCentrifuge.totalEu(750), GTMaterialGen.get(GTCAItems.MIXED_METAL_DUST, 2), GTMaterialGen.getIc2(Ic2Items.ironDust), GTMaterialGen.getDust(GTCAMaterial.Beryllium, 2), GTMaterialGen.getDust(GTMaterial.Flint, 2));
+        GTTileCentrifuge.addRecipe("crushedoreGadolinite", 4, 0, GTTileCentrifuge.totalEu(750), GTMaterialGen.getIc2(Ic2Items.ironDust), GTMaterialGen.getDust(GTCAMaterial.Beryllium, 1), GTMaterialGen.getDust(GTMaterial.Flint, 1), GTMaterialGen.getDust(GTCXMaterial.Stone, 1), GTMaterialGen.getDust(GTCAMaterial.Impurities, 1));
+        GTTileCentrifuge.addRecipe("crushedorePurifiedGadolinite", 4, 0, GTTileCentrifuge.totalEu(750), GTMaterialGen.getIc2(Ic2Items.ironDust), GTMaterialGen.getDust(GTCAMaterial.Beryllium, 1), GTMaterialGen.getDust(GTMaterial.Flint, 1), GTCXMaterialGen.getTinyDust(GTCAMaterial.Mixed_Metal, 1));
 
         GTTileCentrifuge.addRecipe("dustMolybdenite", 3, 0, GTTileCentrifuge.totalEu(750), GTMaterialGen.getDust(GTCAMaterial.Molybdenum, 1), GTMaterialGen.getDust(GTMaterial.Sulfur, 2));
 

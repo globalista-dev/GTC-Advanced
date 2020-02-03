@@ -1,8 +1,6 @@
 package gtca.client;
 
 import gtca.GTCA;
-import gtca.init.Old_GTCABlocks;
-import gtca.init.GTCAItems;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
@@ -18,14 +16,14 @@ public class ModelRegistrationHandler {
     public static void registerModels(ModelRegistryEvent event) {
         //Items
         //registerModel(GTCAItems.CRUSHED_NETHER_GOLD, 0);
-        registerModel(GTCAItems.MIXED_METAL_DUST, 0);
+        //registerModel(GTCAItems.MIXED_METAL_DUST, 0);
 
         //ItemBlocks
-        registerModel(Item.getItemFromBlock(Old_GTCABlocks.GADOLINITE_ORE), 0);
-        registerModel(Item.getItemFromBlock(Old_GTCABlocks.MOLYBDENITE_ORE), 0);
-        registerModel(Item.getItemFromBlock(Old_GTCABlocks.NETHER_GOLD_ORE), 0);
-        registerModel(Item.getItemFromBlock(Old_GTCABlocks.BISMUTHINITE_ORE), 0);
-        registerModel(Item.getItemFromBlock(Old_GTCABlocks.ZIRCON_ORE), 0);
+        //registerModel(Item.getItemFromBlock(Old_GTCABlocks.GADOLINITE_ORE), 0);
+        //registerModel(Item.getItemFromBlock(Old_GTCABlocks.MOLYBDENITE_ORE), 0);
+        //registerModel(Item.getItemFromBlock(Old_GTCABlocks.NETHER_GOLD_ORE), 0);
+        //registerModel(Item.getItemFromBlock(Old_GTCABlocks.BISMUTHINITE_ORE), 0);
+        //registerModel(Item.getItemFromBlock(Old_GTCABlocks.ZIRCON_ORE), 0);
 
     }
 

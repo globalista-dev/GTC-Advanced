@@ -9,5 +9,5 @@ import net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder;
 public class GTCAItems {
 
     //public static final Item CRUSHED_NETHER_GOLD = null;
-    public static final Item MIXED_METAL_DUST = null;
+    //public static final Item MIXED_METAL_DUST = null;
 }
