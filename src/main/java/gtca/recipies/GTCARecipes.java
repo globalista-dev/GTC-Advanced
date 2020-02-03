@@ -2,6 +2,8 @@ package gtca.recipies;
 
 import gtc_expansion.material.GTCXMaterial;
 import gtc_expansion.material.GTCXMaterialGen;
+import gtc_expansion.tile.GTCXTileChemicalReactor;
+import gtc_expansion.tile.multi.GTCXTileMultiIndustrialBlastFurnace;
 import gtca.GTCAMaterial;
 import gtca.init.GTCABlocks;
 import gtca.init.GTCAItems;
@@ -16,6 +18,7 @@ import ic2.core.platform.registry.Ic2Items;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.crafting.FurnaceRecipes;
+import net.minecraft.tileentity.TileEntity;
 
 public class GTCARecipes {
 
@@ -41,10 +44,17 @@ public class GTCARecipes {
         TileEntityMacerator.addRecipe("crushedoreGadolinite", 1, GTMaterialGen.getDust(GTCAMaterial.Gadolinite, 1));
         TileEntityMacerator.addRecipe("crushedorePurifiedGadolinite", 1, GTMaterialGen.getDust(GTCAMaterial.Gadolinite, 2));
 
-        TileEntityMacerator.addRecipe("oreNetherGold", 1, GTMaterialGen.get(GTCAItems.CRUSHED_NETHER_GOLD, 1));
-        TileEntityMacerator.addRecipe(GTMaterialGen.get(GTCAItems.CRUSHED_NETHER_GOLD, 1), GTCXMaterialGen.getCrushedOre(GTCXMaterial.Gold, 3));
+        TileEntityMacerator.addRecipe("oreNetherGold", 1, GTCXMaterialGen.getCrushedOre(GTCXMaterial.Gold, 1));
         TileEntityMacerator.addRecipe("crushedoreGold",1, GTMaterialGen.getDust(GTCXMaterial.Gold, 2));
         TileEntityMacerator.addRecipe("crushedorePurifiedGold",1, GTMaterialGen.getDust(GTCXMaterial.Gold, 4));
+
+        TileEntityMacerator.addRecipe("oreZircon", 1, GTCXMaterialGen.getCrushedOre(GTCAMaterial.Zircon, 1));
+        TileEntityMacerator.addRecipe("crushedoreZircon", 1, GTMaterialGen.getDust(GTCAMaterial.Zircon, 1));
+        TileEntityMacerator.addRecipe("crushedorePurifiedZircon", 1, GTMaterialGen.getDust(GTCAMaterial.Zircon, 2));
+
+        TileEntityMacerator.addRecipe("oreBismuthinite", 1, GTCXMaterialGen.getCrushedOre(GTCAMaterial.Bismuthinite, 1));
+        TileEntityMacerator.addRecipe("crushedoreBismuthinite", 1, GTMaterialGen.getDust(GTCAMaterial.Bismuthinite, 1));
+        TileEntityMacerator.addRecipe("crushedorePurifiedBismuthinite", 1, GTMaterialGen.getDust(GTCAMaterial.Bismuthinite, 2));
 
     }
 
@@ -52,18 +62,15 @@ public class GTCARecipes {
     public static void addCentrifuge()
     {
 
-        GTTileCentrifuge.addRecipe("dustGadolinite", 7, 0, GTTileCentrifuge.totalEu(750), GTMaterialGen.get(GTCAItems.MIXED_METAL_DUST, 2), GTMaterialGen.getDust(GTCXMaterial.Iron, 1), GTMaterialGen.getDust(GTMaterial.Beryllium, 2), GTMaterialGen.getDust(GTMaterial.Silicon, 2));
-        //GTTileCentrifuge.addRecipe("crushedoreGadolinite", 1, 0,GTTileCentrifuge.totalEu(750), GTMaterialGen.getDust(GTCAMaterials.Gadolinite, 3));
-        //GTTileCentrifuge.addRecipe("crushedPurifiedGadolinite", 1,0,GTTileCentrifuge.totalEu(750), GTMaterialGen.getDust(GTCAMaterials.Gadolinite, 5));
+        GTTileCentrifuge.addRecipe("dustGadolinite", 7, 0, GTTileCentrifuge.totalEu(750), GTMaterialGen.get(GTCAItems.MIXED_METAL_DUST, 2), GTMaterialGen.getIc2(Ic2Items.ironDust), GTMaterialGen.getDust(GTCAMaterial.Beryllium, 2), GTMaterialGen.getDust(GTMaterial.Flint, 2));
 
         GTTileCentrifuge.addRecipe("dustMolybdenite", 3, 0, GTTileCentrifuge.totalEu(750), GTMaterialGen.getDust(GTCAMaterial.Molybdenum, 1), GTMaterialGen.getDust(GTMaterial.Sulfur, 2));
-        //GTTileCentrifuge.addRecipe("crushedoreMolybdenite", 1, 0,GTTileCentrifuge.totalEu(750), GTMaterialGen.getDust(GTCAMaterials.Molybdenite, 3));
-        //GTTileCentrifuge.addRecipe("crushedPurifiedMolybdenite", 1,0,GTTileCentrifuge.totalEu(750), GTMaterialGen.getDust(GTCAMaterials.Molybdenite, 5));
+
+        GTTileCentrifuge.addRecipe("dustZircon", 3, 0, GTTileCentrifuge.totalEu(750), GTMaterialGen.getDust(GTCAMaterial.Zirconium, 1), GTMaterialGen.getDust(GTMaterial.Flint, 1));
+
+        GTTileCentrifuge.addRecipe("dustBismuthinite", 3, 0, GTTileCentrifuge.totalEu(750), GTMaterialGen.getDust(GTCAMaterial.Bismuth, 2), GTMaterialGen.getDust(GTMaterial.Sulfur, 3));
 
     }
-
-
-
 }
 
 

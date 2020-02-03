@@ -12,6 +12,8 @@ import net.minecraftforge.oredict.OreDictionary;
 
 import java.util.Iterator;
 
+import static gtca.GTCAMaterial.*;
+
 public class GTCAOreDict {
     public GTCAOreDict() {
     }
@@ -21,8 +23,11 @@ public class GTCAOreDict {
         OreDictionary.registerOre("oreMolybdenite", GTCABlocks.MOLYBDENITE_ORE);
         OreDictionary.registerOre("oreGadolinite", GTCABlocks.GADOLINITE_ORE);
         OreDictionary.registerOre("oreNetherGold", GTCABlocks.NETHER_GOLD_ORE);
+        OreDictionary.registerOre("oreZircon", GTCABlocks.ZIRCON_ORE);
         OreDictionary.registerOre("dustRareEarth", Ic2Items.rareEarthDust);
         OreDictionary.registerOre("dustMixedMetal", GTCAItems.MIXED_METAL_DUST);
+        OreDictionary.registerOre("dustGadolinite", GTMaterialGen.getDust(Gadolinite, 1));
+        OreDictionary.registerOre("dustMolybdenite", GTMaterialGen.getDust(Molybdenite, 1));
 
         Iterator var0 = GTMaterial.values().iterator();
 
