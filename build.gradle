@@ -41,7 +41,9 @@ minecraft {
 dependencies {
 	deobfCompile "curse.maven:gregtech-classic:2869207"
 	deobfCompile "curse.maven:gregtech-classic-expansion:2858030"
+    deobfCompile "curse.maven:ic2c-extras:2857963"
 	compile "curse.maven:ic2-classic:2799212"
+
 }
 
 processResources {

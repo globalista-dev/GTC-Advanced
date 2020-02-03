@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "GTCA:items/test_item_2"
+        "layer0": "GTCA:items/mixed_metal_dust"
     }
 } 

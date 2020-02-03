@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "GTCA:items/test_item"
+        "layer0": "GTCA:items/crushed_nether_gold"
     }
 } 

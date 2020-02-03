@@ -8,7 +8,6 @@ import net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder;
 @ObjectHolder(GTCA.MODID)
 public class GTCAItems {
 
-    public static final Item TEST_ITEM = null;
-    public static final Item TEST_ITEM_2 = null;
-
+    public static final Item CRUSHED_NETHER_GOLD = null;
+    public static final Item MIXED_METAL_DUST = null;
 }

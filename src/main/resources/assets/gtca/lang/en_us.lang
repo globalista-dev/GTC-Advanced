@@ -1,11 +1,13 @@
 # Items
-item.gtca.test_item.name=Test Item
-item.gtca.test_item_2.name=Test Item II
+item.gtca.crushed_nether_gold.name=Crushed Nether Gold Ore
+item.gtca.rare_earth_dust.name=Rare Earth Dust
 item.gtclassic.dustsmallYttrium.name=Small Yttrium Dust
 item.gtclassic.dustsmallMolybdenum.name=Small Molybdenum Dust
 item.gtclassic.dustsmallLanthanum.name=Small Lanthanum Dust
 item.gtclassic.dustsmallRhenium.name=Small Rhenium Dust
 item.gtclassic.dustsmallCerium.name=Small Cerium Dust
+item.gtclassic.dustsmallMolybdenite.name=Small Molybdenite Dust
+item.gtclassic.dustsmallGadolinite.name=Small Gadolinite Dust
 item.gtclassic.nuggetYttrium.name=Yttrium Nugget
 item.gtclassic.nuggetMolybdenum.name=Molybdenum Nugget
 item.gtclassic.nuggetLanthanum.name=Lanthanum Nugget
@@ -36,6 +38,8 @@ item.gtclassic.dustLanthanum.name=Lanthanum Dust
 item.gtclassic.dustRhenium.name=Rhenium Dust
 item.gtclassic.dustCerium.name=Cerium Dust
 item.gtclassic.dustNeodymium.name=Neodymium Dust
+item.gtclassic.dustGadolinite.name=Gadolinite Dust
+item.gtclassic.dustMolybdenite.name=Molybdenite Dust
 item.gtclassic.ingotYttrium.name=Yttrium Ingot
 item.gtclassic.ingotMolybdenum.name=Molybdenum Ingot
 item.gtclassic.ingotLanthanum.name=Lanthanum Ingot
@@ -48,8 +52,12 @@ item.gtclassic.dusttinyLanthanum.name=Tiny Lanthanum Dust
 item.gtclassic.dusttinyRhenium.name=Tiny Rhenium Dust
 item.gtclassic.dusttinyCerium.name=Tiny Cerium Dust
 item.gtclassic.dusttinyNeodymium.name=Tiny Neodymium Dust
-item.gtclassic.crushedoreMolybdenum.name=Crushed Molybdenum Ore
-item.gtclassic.crushedorePurifiedMolybdenum.name=Purified Crushed Molybdenum Ore
+item.gtclassic.dusttinyMolibdenite.name=Tiny Molybdenite Dust
+item.gtclassic.dusttinyGadolinite.name=Tiny Gadolinite Dust
+item.gtclassic.crushedoreMolybdenite.name=Crushed Molybdenite Ore
+item.gtclassic.crushedorepurifiedMolybdenite.name=Purified Crushed Molybdenite Ore
+item.gtclassic.crushedoreGadolinite.name=Crushed Gadolinite Ore
+item.gtclassic.crushedorepurifiedGadolinite.name=Purified Crushed Gadolinite Ore
 
 # Blocks
 tile.gtclassic.blockYttrium.name=Block of Yttrium
@@ -59,6 +67,9 @@ tile.gtclassic.blockConstantan.name=Block of Constantan
 tile.gtclassic.blockNeodymium.name=Block of Neodymium
 tile.gtclassic.blockRhenium.name=Block of Rhenium
 tile.gtclassic.blockCerium.name=Block of Cerium
+tile.gtca.molybdenite_ore.name=Molybdenite Ore
+tile.gtca.gadolinite_ore.name=Gadolinite Ore
+tile.gtca.nether_gold_ore.name=Nether Gold Ore
 
 # Fluids
 fluid.yttrium=Molten Yttrium

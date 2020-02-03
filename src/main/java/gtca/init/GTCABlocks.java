@@ -7,8 +7,9 @@ import net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder;
 @ObjectHolder(GTCA.MODID)
 public class GTCABlocks {
 
-    public static final GTCABlockOre MOLYBDENUM_ORE = null;
+    public static final GTCABlockOre MOLYBDENITE_ORE = null;
     public static final GTCABlockOre GADOLINITE_ORE = null;
+    public static final GTCABlockOre NETHER_GOLD_ORE = null;
 
 }
 
