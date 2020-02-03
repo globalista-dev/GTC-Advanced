@@ -2,23 +2,16 @@ package gtca.recipies;
 
 import gtc_expansion.material.GTCXMaterial;
 import gtc_expansion.material.GTCXMaterialGen;
-import gtc_expansion.tile.GTCXTileChemicalReactor;
-import gtc_expansion.tile.multi.GTCXTileMultiIndustrialBlastFurnace;
 import gtca.GTCAMaterial;
-import gtca.init.GTCABlocks;
+import gtca.init.Old_GTCABlocks;
 import gtca.init.GTCAItems;
 import gtclassic.api.material.GTMaterial;
 import gtclassic.api.material.GTMaterialGen;
 import gtclassic.common.tile.GTTileCentrifuge;
-import ic2.api.item.IC2Items;
-import ic2.core.IC2;
 import ic2.core.block.machine.low.TileEntityMacerator;
-import ic2.core.inventory.base.IC2ItemInventory;
 import ic2.core.platform.registry.Ic2Items;
 import net.minecraft.init.Items;
-import net.minecraft.item.Item;
 import net.minecraft.item.crafting.FurnaceRecipes;
-import net.minecraft.tileentity.TileEntity;
 
 public class GTCARecipes {
 
@@ -26,9 +19,9 @@ public class GTCARecipes {
     public static void addSmelting()
     {
 
-        FurnaceRecipes.instance().addSmeltingRecipeForBlock(GTCABlocks.MOLYBDENITE_ORE, GTMaterialGen.getIngot(GTCAMaterial.Molybdenum, 1), 10);
-        FurnaceRecipes.instance().addSmeltingRecipeForBlock(GTCABlocks.GADOLINITE_ORE, GTMaterialGen.getIngot(GTMaterial.Beryllium, 1), 10);
-        FurnaceRecipes.instance().addSmeltingRecipeForBlock(GTCABlocks.NETHER_GOLD_ORE, GTMaterialGen.get(Items.GOLD_INGOT, 2), 10);
+        FurnaceRecipes.instance().addSmeltingRecipeForBlock(Old_GTCABlocks.MOLYBDENITE_ORE, GTMaterialGen.getIngot(GTCAMaterial.Molybdenum, 1), 10);
+        FurnaceRecipes.instance().addSmeltingRecipeForBlock(Old_GTCABlocks.GADOLINITE_ORE, GTMaterialGen.getIngot(GTMaterial.Beryllium, 1), 10);
+        FurnaceRecipes.instance().addSmeltingRecipeForBlock(Old_GTCABlocks.NETHER_GOLD_ORE, GTMaterialGen.get(Items.GOLD_INGOT, 2), 10);
 
     }
 

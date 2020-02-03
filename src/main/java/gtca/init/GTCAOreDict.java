@@ -2,12 +2,10 @@ package gtca.init;
 
 import gtc_expansion.material.GTCXMaterial;
 import gtc_expansion.material.GTCXMaterialGen;
-import gtca.GTCAMaterial;
 import gtclassic.api.material.GTMaterial;
 import gtclassic.api.material.GTMaterialFlag;
 import gtclassic.api.material.GTMaterialGen;
 import ic2.core.platform.registry.Ic2Items;
-import net.minecraftforge.advancements.critereon.OredictItemPredicate;
 import net.minecraftforge.oredict.OreDictionary;
 
 import java.util.Iterator;
@@ -20,10 +18,10 @@ public class GTCAOreDict {
 
     public static void init() {
 
-        OreDictionary.registerOre("oreMolybdenite", GTCABlocks.MOLYBDENITE_ORE);
-        OreDictionary.registerOre("oreGadolinite", GTCABlocks.GADOLINITE_ORE);
-        OreDictionary.registerOre("oreNetherGold", GTCABlocks.NETHER_GOLD_ORE);
-        OreDictionary.registerOre("oreZircon", GTCABlocks.ZIRCON_ORE);
+        OreDictionary.registerOre("oreMolybdenite", Old_GTCABlocks.MOLYBDENITE_ORE);
+        OreDictionary.registerOre("oreGadolinite", Old_GTCABlocks.GADOLINITE_ORE);
+        OreDictionary.registerOre("oreNetherGold", Old_GTCABlocks.NETHER_GOLD_ORE);
+        OreDictionary.registerOre("oreZircon", Old_GTCABlocks.ZIRCON_ORE);
         OreDictionary.registerOre("dustRareEarth", Ic2Items.rareEarthDust);
         OreDictionary.registerOre("dustMixedMetal", GTCAItems.MIXED_METAL_DUST);
         OreDictionary.registerOre("dustGadolinite", GTMaterialGen.getDust(Gadolinite, 1));

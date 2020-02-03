@@ -14,7 +14,7 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 
 @Mod(modid = GTCA.MODID, name = GTCA.NAME, version = GTCA.VERSION, acceptedMinecraftVersions = GTCA.MC_VERSION, dependencies = GTCA.DEPENDENCIES)
-public class GTCA extends GTCAMaterial {
+public class GTCA {
 
     public static final String MODID = "gtca";
     public static final String NAME = "GregTech Classic Advanced";
@@ -23,6 +23,10 @@ public class GTCA extends GTCAMaterial {
     public static final String DEPENDENCIES = "required-after:ic2;required-after:ic2-classic-spmod;required-after:gtclassic@[1.1.0,);required-after:gtc_expansion";
 
     public static final Logger LOGGER = LogManager.getLogger(GTCA.MODID);
+
+    static {
+        GTCAMaterial.init();
+    }
 
     @EventHandler
     public void preInit(FMLPreInitializationEvent event) {

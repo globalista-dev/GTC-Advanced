@@ -39,5 +39,9 @@ public class GTCAMaterial {
     public static final GTMaterial Zircon = new GTMaterial("Zircon", 127, 146, 255, gemAll3);
     public static final GTMaterial Bismuthinite = new GTMaterial("Bismuthinite", 255, 251, 229, crushedAll);
 
+    public static void init() {
+
+    }
+
 }
 

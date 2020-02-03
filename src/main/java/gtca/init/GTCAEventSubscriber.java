@@ -1,8 +1,6 @@
 package gtca.init;
 
 import gtca.GTCA;
-import gtca.blocks.GTCABlockOre;
-import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import net.minecraftforge.event.RegistryEvent;
@@ -20,11 +18,11 @@ public final class GTCAEventSubscriber {
 
         //ItemBlocks
         final Item[] itemBlocks = {
-                new ItemBlock(GTCABlocks.MOLYBDENITE_ORE).setRegistryName(GTCABlocks.MOLYBDENITE_ORE.getRegistryName()),
-                new ItemBlock(GTCABlocks.GADOLINITE_ORE).setRegistryName(GTCABlocks.GADOLINITE_ORE.getRegistryName()),
-                new ItemBlock(GTCABlocks.NETHER_GOLD_ORE).setRegistryName(GTCABlocks.NETHER_GOLD_ORE.getRegistryName()),
-                new ItemBlock(GTCABlocks.ZIRCON_ORE).setRegistryName(GTCABlocks.ZIRCON_ORE.getRegistryName()),
-                new ItemBlock(GTCABlocks.BISMUTHINITE_ORE).setRegistryName(GTCABlocks.BISMUTHINITE_ORE.getRegistryName()),
+                new ItemBlock(Old_GTCABlocks.MOLYBDENITE_ORE).setRegistryName(Old_GTCABlocks.MOLYBDENITE_ORE.getRegistryName()),
+                new ItemBlock(Old_GTCABlocks.GADOLINITE_ORE).setRegistryName(Old_GTCABlocks.GADOLINITE_ORE.getRegistryName()),
+                new ItemBlock(Old_GTCABlocks.NETHER_GOLD_ORE).setRegistryName(Old_GTCABlocks.NETHER_GOLD_ORE.getRegistryName()),
+                new ItemBlock(Old_GTCABlocks.ZIRCON_ORE).setRegistryName(Old_GTCABlocks.ZIRCON_ORE.getRegistryName()),
+                new ItemBlock(Old_GTCABlocks.BISMUTHINITE_ORE).setRegistryName(Old_GTCABlocks.BISMUTHINITE_ORE.getRegistryName()),
 
         };
 
