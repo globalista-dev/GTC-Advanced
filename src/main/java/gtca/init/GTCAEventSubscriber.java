@@ -13,7 +13,7 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 public final class GTCAEventSubscriber {
 
     public static final GTCABlockOre oreSample = new GTCABlockOre("Sample", 0, 3.0F, 1);
-    public static final GTCABlockOre oreMolybdenite = new GTCABlockOre("Molybdenite", 16, 3.0F, 1);
+    public static final GTCABlockOre oreMolybdenite = new GTCABlockOre("Molybdenite", 1, 3.0F, 1);
 
     @SubscribeEvent
     public static void registerBlocks(RegistryEvent.Register<Block> event) {

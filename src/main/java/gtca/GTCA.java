@@ -21,7 +21,7 @@ public class GTCA {
     public static final String MC_VERSION = "[1.12.2]";
     public static final String DEPENDENCIES = "required-after:ic2;required-after:ic2-classic-spmod;required-after:gtclassic@[1.1.0,);required-after:gtc_expansion";
 
-    @SidedProxy(clientSide = "gtca.GTCA.proxy.ClientProxy", serverSide = "gtca.GTCA.proxy.ServerProxy")
+    @SidedProxy(clientSide = "gtca.proxy.ClientProxy", serverSide = "gtca.proxy.ServerProxy")
     public static CommonProxy proxy;
 
     @Mod.Instance

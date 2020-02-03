@@ -14,16 +14,6 @@ public class ModelRegistrationHandler {
 
     @SubscribeEvent
     public static void registerModels(ModelRegistryEvent event) {
-        //Items
-        //registerModel(GTCAItems.CRUSHED_NETHER_GOLD, 0);
-        //registerModel(GTCAItems.MIXED_METAL_DUST, 0);
-
-        //ItemBlocks
-        //registerModel(Item.getItemFromBlock(Old_GTCABlocks.GADOLINITE_ORE), 0);
-        //registerModel(Item.getItemFromBlock(Old_GTCABlocks.MOLYBDENITE_ORE), 0);
-        //registerModel(Item.getItemFromBlock(Old_GTCABlocks.NETHER_GOLD_ORE), 0);
-        //registerModel(Item.getItemFromBlock(Old_GTCABlocks.BISMUTHINITE_ORE), 0);
-        //registerModel(Item.getItemFromBlock(Old_GTCABlocks.ZIRCON_ORE), 0);
 
     }
 

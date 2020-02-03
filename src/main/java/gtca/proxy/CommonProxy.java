@@ -20,13 +20,5 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
         public void postInit(FMLPostInitializationEvent e) {
         }
 
-        @SubscribeEvent
-        public static void registerBlocks(RegistryEvent.Register<Block> event) {
-        }
-
-        @SubscribeEvent
-        public static void registerItems(RegistryEvent.Register<Item> event) {
-        }
-
 }
 

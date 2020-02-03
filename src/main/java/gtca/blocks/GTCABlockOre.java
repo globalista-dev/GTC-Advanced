@@ -26,7 +26,7 @@ public class GTCABlockOre extends GTBlockBaseOre {
 
     @Override
     public TextureAtlasSprite getTopLayer() {
-        return Ic2Icons.getTextures(GTMod.MODID + "_ores")[this.id];
+        return Ic2Icons.getTextures("gtca_ores")[this.id];
 
     }
 
