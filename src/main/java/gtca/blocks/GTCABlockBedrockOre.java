@@ -1,6 +1,5 @@
 package gtca.blocks;
 
-<<<<<<< HEAD
 import java.util.List;
 
 import gtclassic.GTMod;
@@ -42,8 +41,4 @@ public class GTCABlockBedrockOre extends GTBlockBaseOre {
         return Ic2Icons.getTextures("gtca_ores")[this.id];
 
     }
-
-=======
-public class GTCABlockBedrockOre {
->>>>>>> master
 }
