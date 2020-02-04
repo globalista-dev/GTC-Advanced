@@ -18,10 +18,6 @@ public class ClientProxy extends CommonProxy {
     }
 
     @SubscribeEvent
-    public static void registerModels(ModelRegistryEvent event) {
-    }
-
-    @SubscribeEvent
     public void onIconLoad(Ic2Icons.SpriteReloadEvent event) {
         GTCATexture.loadSprites();
     }

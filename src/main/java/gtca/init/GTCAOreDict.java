@@ -5,7 +5,6 @@ import gtc_expansion.material.GTCXMaterialGen;
 import gtclassic.api.material.GTMaterial;
 import gtclassic.api.material.GTMaterialFlag;
 import gtclassic.api.material.GTMaterialGen;
-import ic2.core.platform.registry.Ic2Items;
 import net.minecraftforge.oredict.OreDictionary;
 
 import java.util.Iterator;
