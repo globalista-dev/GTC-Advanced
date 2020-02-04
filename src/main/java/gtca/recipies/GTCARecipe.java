@@ -3,6 +3,7 @@ package gtca.recipies;
 import gtc_expansion.material.GTCXMaterial;
 import gtc_expansion.material.GTCXMaterialGen;
 import gtca.GTCAMaterial;
+import gtca.init.GTCASubscriber;
 import gtclassic.api.material.GTMaterial;
 import gtclassic.api.material.GTMaterialGen;
 import gtclassic.common.tile.GTTileCentrifuge;
@@ -25,7 +26,7 @@ public class GTCARecipes {
     public static void addMacerator()
     {
 
-        TileEntityMacerator.addRecipe("oreMolybdenite", 1, GTCXMaterialGen.getCrushedOre(GTCAMaterial.Molybdenite, 1));
+        TileEntityMacerator.addRecipe(GTMaterialGen.get(GTCASubscriber.oreMolybdenite), GTCXMaterialGen.getCrushedOre(GTCAMaterial.Molybdenite, 1));
         TileEntityMacerator.addRecipe("crushedoreMolybdenite", 1, GTMaterialGen.getDust(GTCAMaterial.Molybdenite, 1));
         TileEntityMacerator.addRecipe("crushedorePurifiedMolybdenite", 1, GTMaterialGen.getDust(GTCAMaterial.Molybdenite, 2));
 
@@ -33,7 +34,7 @@ public class GTCARecipes {
         TileEntityMacerator.addRecipe("crushedoreGadolinite", 1, GTMaterialGen.getDust(GTCAMaterial.Gadolinite, 1));
         TileEntityMacerator.addRecipe("crushedorePurifiedGadolinite", 1, GTMaterialGen.getDust(GTCAMaterial.Gadolinite, 2));
 
-        TileEntityMacerator.addRecipe("oreNetherGold", 1, GTCXMaterialGen.getCrushedOre(GTCXMaterial.Gold, 1));
+        TileEntityMacerator.addRecipe("oreNGold", 1, GTCXMaterialGen.getCrushedOre(GTCXMaterial.Gold, 1));
         TileEntityMacerator.addRecipe("crushedoreGold",1, GTMaterialGen.getDust(GTCXMaterial.Gold, 2));
         TileEntityMacerator.addRecipe("crushedorePurifiedGold",1, GTMaterialGen.getDust(GTCXMaterial.Gold, 4));
 
