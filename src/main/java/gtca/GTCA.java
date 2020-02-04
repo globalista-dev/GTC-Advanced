@@ -1,7 +1,7 @@
 package gtca;
 
 import gtca.init.GTCAOreDict;
-import gtca.recipies.GTCARecipes;
+import gtca.recipies.GTCARecipe;
 import gtca.proxy.CommonProxy;
 import net.minecraftforge.fml.common.SidedProxy;
 import org.apache.logging.log4j.Logger;
@@ -43,9 +43,9 @@ public class GTCA {
         proxy.init(e);
         logger.info(GTCA.NAME + "GTC Advanced has been loaded.");
         GTCAOreDict.init();
-        GTCARecipes.addSmelting();
-        GTCARecipes.addMacerator();
-        GTCARecipes.addCentrifuge();
+        GTCARecipe.addSmelting();
+        GTCARecipe.addMacerator();
+        GTCARecipe.addCentrifuge();
     }
 
     @Mod.EventHandler
